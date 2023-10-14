@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Magic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>MOVIE MAGIC</h1>
+    <div class="container">
+        <div class="section">
+            <h2>Movies</h2>
+            <ul id="movie-list"></ul>
+            <p>Movies in Total: <span id="total-movies">0</span></p>
+        </div>
+
+        <div class="section">
+            <h2>Add a Movie</h2>
+            <form id="add-movie-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" required><br>
+        
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" required><br>
+        
+                <label for="watched">Watched:</label>
+                <input type="checkbox" id="watched"><br>
+        
+                <button type="submit">Add Movie</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Show High-Rated Movies</h2>
+            <input type="number" id="rating-input" placeholder="Enter rating">
+            <button id="show-high-rated-button">Show High-Rated Movies</button>
+            <ul id="high-rated-list"></ul>
+            <p>Movies Rated Higher: <span id="high-rated-movies">0</span></p>
+        </div>
+
+        <div class="section">
+            <h2>Change Watched Status</h2>
+            <input type="text" id="title-input" placeholder="Enter movie title">
+            <button id="toggle-watched-status-button">Toggle Watched Status</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

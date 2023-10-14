@@ -1,0 +1,128 @@
+body {
+    font-family: Lato, sans-serif;
+    background-image: url(images/theater2.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #654C4F;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+
+}
+
+h2 {
+    color: #FFFFFF;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.movie-item {
+    margin: 5px 0; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    background-color: #851C0A;
+    list-style: none;
+
+}
+
+.rate-item {
+    margin: 5px 0; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    background-color: #931308;
+    list-style: none;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.section { /* watch status */
+    background-color: #E91F0C;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.section:nth-child(2) {
+    background-color: #A9250D;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section:nth-child(3) {
+    background-color: #931308;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input {
+    margin: 5px 0;
+}
+
+form label {
+    text-align: center;
+}
